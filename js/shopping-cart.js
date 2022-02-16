@@ -1,0 +1,1 @@
+const checkout = () => alert("Checkout button clicked");

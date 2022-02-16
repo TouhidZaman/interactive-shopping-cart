@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- shopping cart stylesheet file  -->
+    <link rel="stylesheet" href="styles/shopping-cart.css">
+    <title>Interactive Shopping Card</title>
+</head>
+<body>
+    <!-- section.shopping_cart_section>h3{NT's Shopping Cart}.shopping_cart_section--title+.shopping_cart>(.shopping_cart--shopping_items>.shopping_items--header+.shopping_items--body)+.shopping_cart--order_summery>.order_summery--info+.order_summery--delivery_method+.order_summery--promo_code -->
+    <section class="shopping_cart_section">
+        <h3 class="shopping_cart_section--title">NT's Shopping Cart</h3>
+        <div class="shopping_cart container">
+            <div class="shopping_cart--shopping_items">
+                <div class="shopping_items--header"></div>
+                <div class="shopping_items--body"></div>
+            </div>
+            <div class="shopping_cart--order_summery">
+                <!-- bg-E9E9E9 -->
+                <div class="order_summery--info"></div>
+                <div class="order_summery--delivery_method"></div>
+                <div class="order_summery--promo_code">
+                    <!-- promo-btn-bg-FF9192 -->
+                </div>
+                <!-- checkout-btn-bg-3B12FF -->
+                <button id="checkout-btn" class="" onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+    </section>
+    <!-- shopping cart javascript file  -->
+    <script src="js/shopping-cart.js"></script>
+</body>
+</html>
